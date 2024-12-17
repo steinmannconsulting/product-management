@@ -1,4 +1,4 @@
-# Guidelines for Product Management Artifacts
+# Guidelines for Product ROI Assessment
 
 ## Artifacts
 
@@ -25,8 +25,24 @@ The following work artifacts help categorize and manage efforts throughout the p
    - **Example**: Administrator, End User, Power User.
 
 4. **User Stories**
-   - **What Are They?**: Short, focused descriptions of functionality from the user’s perspective.
-   - **Example**: *"As an Administrator, I want to enable 2FA to secure user accounts."*
+   - **What Are They?**: Short, focused descriptions of functionality written from the user's perspective to articulate a specific outcome.
+   - **Format**: 
+     *"As a [Role], I want to [Action], so that I can [Outcome]."*
+
+   - **Purpose**: User stories ensure that features and functionality are designed to meet user needs and achieve a specific goal.
+
+   - **Composition of a User Story**:
+     - **Role**: The user or archetype performing the action (e.g., End User, Administrator).
+     - **Action**: The action the user needs to perform (e.g., enable 2FA, view a dashboard).
+     - **Outcome**: The desired result or benefit (e.g., secure an account, analyze performance metrics).
+   
+   - **Examples of User Stories**:
+     1. *"As an Administrator, I want to enable 2FA, so that I can secure user accounts from unauthorized access."*
+     2. *"As a Power User, I want to export data from the analytics dashboard to Excel, so that I can analyze it offline."*
+     3. *"As an End User, I want to receive SMS notifications for critical updates, so that I don’t miss important alerts."*
+
+   - **Why User Stories Matter**:
+     User stories ensure clarity, focus on user outcomes, and provide a foundation for collaboration between product managers, developers, and stakeholders. They align product work with user needs and business value.
 
 5. **Bugs**
    - **What Are They?**: Defects or errors in the product that impact functionality, performance, or user experience.
@@ -109,6 +125,7 @@ To effectively manage product development and prioritize ROI, ensure that **Arti
 
 1. **User Stories**
    - Clearly link user stories to features, modules, and roles.
+   - Write stories in the format: *"As a [Role], I want to [Action], so that I can [Outcome]."*
 
 2. **Bugs**
    - Bugs must reference the module they belong to, along with severity and priority.
