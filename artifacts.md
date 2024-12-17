@@ -1,4 +1,4 @@
-# Guidelines for Product ROI Assessment
+# Guidelines for Product Management Artifact Creation
 
 ## Artifacts
 
